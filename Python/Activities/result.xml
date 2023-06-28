@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.280" timestamp="2023-05-17T00:36:55.329893" hostname="LAPTOP-H1MS9HM6"><testcase classname="activity21_test" name="test_addition" time="0.001" /><testcase classname="activity21_test" name="test_subtraction" time="0.002"><failure message="assert 15 == 16">def test_subtraction():
+        num1 = 50
+        num2 = 35
+        diff = num1 - num2
+&gt;       assert diff == 16
+E       assert 15 == 16
+
+activity21_test.py:15: AssertionError</failure></testcase><testcase classname="activity21_test" name="test_multiplication" time="0.002" /><testcase classname="activity21_test" name="test_division" time="0.002"><failure message="assert 20.0 == 2">def test_division():
+        num1 = 100
+        num2 = 5
+        quot = num1 / num2
+&gt;       assert quot == 2
+E       assert 20.0 == 2
+
+activity21_test.py:29: AssertionError</failure></testcase></testsuite></testsuites>
