@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActivitySuite">
+    <test thread-count="4" name="SuiteTests">
+        <classes>
+            <class name="activity1"></class>
+            <class name="activity2"></class>
+            <class name="activity3"></class>
+            <class name="activity4"></class>
+            <class name="activity5"></class>
+            <class name="activity6"></class>
+            <class name="activity7"></class>
+            <class name="activity8"></class>
+            <class name="activity9"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
